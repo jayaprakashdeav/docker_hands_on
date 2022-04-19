@@ -1,5 +1,5 @@
-*)run tomcate image
 *)https://github.com/jayaprakashdeav/docker_hands_on
+*)run tomcate image in server
 
 use below public IP to access the apache tomcat
 http://54.173.14.209:8080  ----> (check Dockerfile.../webapps/ROOT.war)
