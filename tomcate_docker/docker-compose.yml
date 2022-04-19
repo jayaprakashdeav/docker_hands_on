@@ -1,0 +1,8 @@
+# docker-compose.yml
+version: "3.9"
+services:
+  web:
+    build: .
+    image: "tomcat:cust_img"
+    ports:
+      - "8080:8080"    
